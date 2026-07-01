@@ -13,8 +13,4 @@ STEPS = [
     ),
     native_pkg_step("fzf", brew_pkg="fzf", apt_pkg="fzf", winget_id="junegunn.fzf"),
     native_pkg_step("tmux", brew_pkg="tmux", apt_pkg="tmux", platforms=plat.UNIX),
-    native_pkg_step(
-        "wezterm", brew_pkg="wezterm", apt_pkg="wezterm",
-        winget_id="wez.wezterm", brew_cask=True,
-    ),
 ]
