@@ -1,0 +1,4 @@
+current-configs/
+__pycache__/
+*.pyc
+.dev-env-backups/
